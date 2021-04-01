@@ -6,5 +6,5 @@ link to heroku server https://wab30billakanti.herokuapp.com/
 Class name: bags
 Attributes:
 Name (String)
-Color(String)
+Brand (String)
 Price (Numer)

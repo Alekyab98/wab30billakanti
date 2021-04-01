@@ -1,4 +1,11 @@
 extends layout
 
 block content
+  div(class="container-fluid")
   h1= title
+  - var result=[{Name:"Hand bags",Brand:"Coach",Price:400},{Name:"bum bags",Brand:"Guess",Price:250},{Name:"Backpack",Brand:"Gucci",Price:2000}] 
+  div(class="row")
+    each form in result
+      div(class = "col-sm-2") #{form.Name}
+      div(class = "col-sm-2") #{form.Brand}
+      div(class = "col-sm-2") #{form.Price}
